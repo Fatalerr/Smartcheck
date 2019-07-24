@@ -3,8 +3,8 @@ import os
 import json
 import time
 import logging
-from smartcare.libs.basechecker.checkitem import BaseCheckItem, ResultInfo
-from smartcare.libs.basechecker.checkitem import exec_checkitem
+from smartcheck.libs.basechecker.checkitem import BaseCheckItem, ResultInfo
+from smartcheck.libs.basechecker.checkitem import exec_checkitem
 
 from .configer import BASE_PATH
 from .configer import checking_rules
